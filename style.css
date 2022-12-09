@@ -156,10 +156,11 @@
     }
     .truck{
         background-image: url('truck.png.jpeg') ;
-        background-size: cover;
+        background-size:auto;
         background-repeat: no-repeat;
-        height:auto;
-        width:auto;
+        height:100%;
+        width:100%;
+
 
     }
     
