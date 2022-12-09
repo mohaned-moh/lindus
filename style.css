@@ -19,14 +19,23 @@
         z-index:999;
     
     } 
-    .truck{
-        background-image: url('Aurora-Driver-technology-tester-1226x835.jpg') ;
+
+   .truck{
+        background-image: url(truck.png.jpeg) ;
         background-size: cover;
         background-repeat: no-repeat;
         height:100vh;
         width:100%;
 
     }
+
+    /*.man{
+        z-index: -5;
+        width:100%;
+        height: 100%;
+        background-size: cover;
+        z-index:0;
+    }*/
     
     .navbar__container {
         display: flex;
@@ -37,11 +46,13 @@
         max-width:1300px;
         margin:0 auto;
         padding:0 50px;
+       /* background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)),url(pexels-gustavo-fring-6720532.jpg);*/
     }
+    
     #navbar__logo {
         color: rgb(68, 68, 68);
         background-color:rgb(213, 208, 208);
-        background-image: linear-gradient(to top,#e9c94ab4 0%,rgb(0, 4, 255) 100%);
+        background-image: linear-gradient(to top,#f6cf35b4 30%,rgb(34, 36, 167) 100%);
         background-size:100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -70,7 +81,9 @@
         justify-content:center;
         text-decoration: none;
         padding:0 1rem;
+        margin: auto;
         height: 100%;
+
     }
     .navbar__item{
         height:80px;
@@ -142,7 +155,7 @@
        background:rgb(68, 68, 68);
     }
     .truck{
-        background-image: url('Aurora-Driver-technology-tester-1226x835.jpg') ;
+        background-image: url('truck.png.jpeg') ;
         background-size: cover;
         background-repeat: no-repeat;
         height:auto;
